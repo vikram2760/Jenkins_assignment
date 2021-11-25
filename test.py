@@ -8,7 +8,7 @@ class TestSum(unittest.TestCase):
         self.assertEqual(result1, 15)
     def test_2(self):
         result2 = add(20, 0)
-        self.assertEqual(result2, 20)
+        self.assertEqual(result2, 19)
     def test_3(self):
         result3 = add(15, 10)
         self.assertEqual(result3, 25)
